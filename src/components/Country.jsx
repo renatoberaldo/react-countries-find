@@ -3,7 +3,7 @@ import Item from "./Item";
 export default function Country({children: country =[]}){
   
   if(!country) {
-    return <div>Impossible to render the country!</div>
+    return <div>Impossible to render the country!!</div>
   }
   
   const demographicDensity = country.population/country.area;
